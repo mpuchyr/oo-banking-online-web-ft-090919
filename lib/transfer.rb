@@ -9,8 +9,8 @@ class Transfer
     @status = "pending"
     @amount = amount
     @sent_amount = amount
-    # @sender_original_balance = @sender.balance
-    # @receiver_original_balance = @receiver.balance
+    @sender_original_balance = @sender.balance
+    @receiver_original_balance = @receiver.balance
   end
   
   def valid?
